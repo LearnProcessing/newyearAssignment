@@ -38,7 +38,10 @@ function convertWeight(summation, unitWeight) {
     //loop every unit in arr
     for(let i = 0; i < arr.length; i++){
         let stepCount = 0
+        
         //telusuri lagi array untuk menemukan unit weight 
+
+
         if(!reverseUnitStair){
             //menulusuri array untuk menemukan unit weight dari tangga atas ke bawah
             for(let j = i; j < arr.length; j++){
